@@ -10,12 +10,12 @@
 		117287211C99BDF40052527B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117287201C99BDF40052527B /* AppDelegate.swift */; };
 		117287231C99BDF40052527B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117287221C99BDF40052527B /* ViewController.swift */; };
 		117287261C99BDF40052527B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117287241C99BDF40052527B /* Main.storyboard */; };
-		117287281C99BDF40052527B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117287271C99BDF40052527B /* Assets.xcassets */; };
 		1172872B1C99BDF40052527B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117287291C99BDF40052527B /* LaunchScreen.storyboard */; };
 		117287331C99BE220052527B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117287321C99BE220052527B /* RoundButton.swift */; };
 		1172873E1C99C2740052527B /* Play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1172873B1C99C2740052527B /* Play@3x.png */; };
 		1172873F1C99C2740052527B /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1172873C1C99C2740052527B /* Play@2x.png */; };
 		117287401C99C2740052527B /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1172873D1C99C2740052527B /* Play.png */; };
+		117287441C99EC5B0052527B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117287431C99EC5B0052527B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +23,13 @@
 		117287201C99BDF40052527B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		117287221C99BDF40052527B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		117287251C99BDF40052527B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		117287271C99BDF40052527B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1172872A1C99BDF40052527B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1172872C1C99BDF40052527B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		117287321C99BE220052527B /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		1172873B1C99C2740052527B /* Play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@3x.png"; sourceTree = "<group>"; };
 		1172873C1C99C2740052527B /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
 		1172873D1C99C2740052527B /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		117287431C99EC5B0052527B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +65,10 @@
 				117287201C99BDF40052527B /* AppDelegate.swift */,
 				117287221C99BDF40052527B /* ViewController.swift */,
 				117287241C99BDF40052527B /* Main.storyboard */,
-				117287271C99BDF40052527B /* Assets.xcassets */,
 				117287291C99BDF40052527B /* LaunchScreen.storyboard */,
 				1172872C1C99BDF40052527B /* Info.plist */,
 				117287321C99BE220052527B /* RoundButton.swift */,
+				117287431C99EC5B0052527B /* Assets.xcassets */,
 				117287341C99C1B40052527B /* images */,
 			);
 			path = RoundButton;
@@ -144,9 +144,9 @@
 			files = (
 				117287401C99C2740052527B /* Play.png in Resources */,
 				1172872B1C99BDF40052527B /* LaunchScreen.storyboard in Resources */,
-				117287281C99BDF40052527B /* Assets.xcassets in Resources */,
 				1172873E1C99C2740052527B /* Play@3x.png in Resources */,
 				117287261C99BDF40052527B /* Main.storyboard in Resources */,
+				117287441C99EC5B0052527B /* Assets.xcassets in Resources */,
 				1172873F1C99C2740052527B /* Play@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
