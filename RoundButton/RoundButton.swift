@@ -8,11 +8,11 @@
 
 import UIKit
 
-@IBDesignable public class RoundButton: UIButton {
+@IBDesignable open class RoundButton: UIButton {
     
-    @IBInspectable var borderColor: UIColor = UIColor.whiteColor() {
+    @IBInspectable var borderColor: UIColor = UIColor.white {
         didSet {
-            layer.borderColor = borderColor.CGColor
+            layer.borderColor = borderColor.cgColor
         }
     }
     
@@ -22,7 +22,7 @@ import UIKit
         }
     }
     
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         layer.cornerRadius = 0.5 * bounds.size.width
         clipsToBounds = true
